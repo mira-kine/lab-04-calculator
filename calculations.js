@@ -21,3 +21,11 @@ export function multiply_two(num) {
 export function multiply(num1, num2) {
     return num1 * num2;
 }
+
+export function divide_two(num) {
+    return num/2
+}
+
+export function divide(num1, num2) {
+    return num1 / num2;
+}

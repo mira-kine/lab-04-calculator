@@ -4,6 +4,7 @@
 import { add_two, add } from '../calculations.js';
 import { subtract_two, subtract } from '../calculations.js';
 import { multiply_two, multiply } from '../calculations.js'
+import {divide_two, divide} from '../calculations.js'
 
 const test = QUnit.test;
 
@@ -62,5 +63,19 @@ test ('multiply(2,3) function', (expect) => {
     const input2 = 3;
     const expected = 6;
     const actual = multiply(input1, input2);
+    expect.equal(actual, expected);
+});
+
+test ('test divide_two function', (expect) => {
+    const expected = 4;
+    const actual = divide_two(8);
+    expect.equal(actual, expected);
+});
+
+test ('divide(8,4) function', (expect) => {
+    const input1 = 8;
+    const input2 = 4;
+    const expected = 2;
+    const actual = divide(input1, input2);
     expect.equal(actual, expected);
 });
