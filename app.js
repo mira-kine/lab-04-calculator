@@ -49,3 +49,19 @@ multButton.addEventListener('click', ()=>{
   console.log(result);
   multAnswer.textContent = result;
 })
+
+import { divide } from './calculations.js'
+console.log('number divided');
+const diviInput1 = document.getElementById('divi-input-1');
+const diviInput2 = document.getElementById('divi-input-2');
+const diviButton = document.getElementById('divi-button');
+const diviAnswer = document.getElementById('divi-answer');
+
+
+diviButton.addEventListener('click', ()=>{
+  const value1 = Number(diviInput1.value);
+  const value2 = Number(diviInput2.value);
+  const result = divide(value1, value2);
+  console.log(result);
+  diviAnswer.textContent = result;
+})
