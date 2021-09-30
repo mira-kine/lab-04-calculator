@@ -65,3 +65,19 @@ diviButton.addEventListener('click', ()=>{
   console.log(result);
   diviAnswer.textContent = result;
 })
+
+import { mod } from './calculations.js'
+console.log('number divided');
+const modInput1 = document.getElementById('mod-input-1');
+const modInput2 = document.getElementById('mod-input-2');
+const modButton = document.getElementById('mod-button');
+const modAnswer = document.getElementById('mod-answer');
+
+
+modButton.addEventListener('click', ()=>{
+  const value1 = Number(modInput1.value);
+  const value2 = Number(modInput2.value);
+  const result = mod(value1, value2);
+  console.log(result);
+  modAnswer.textContent = result;
+})
