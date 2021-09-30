@@ -56,3 +56,11 @@ test ('test multiply_two function', (expect) => {
     const actual = multiply_two(2);
     expect.equal(actual, expected);
 });
+
+test ('multiply(2,3) function', (expect) => {
+    const input1 = 2;
+    const input2 = 3;
+    const expected = 6;
+    const actual = multiply(input1, input2);
+    expect.equal(actual, expected);
+});
