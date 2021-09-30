@@ -29,3 +29,11 @@ export function divide_two(num) {
 export function divide(num1, num2) {
     return num1 / num2;
 }
+
+export function mod_five(num) {
+    return num % 5;
+}
+
+export function mod(num1, num2) {
+    return num1 % num2;
+}
