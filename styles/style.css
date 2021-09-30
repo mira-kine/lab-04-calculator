@@ -7,9 +7,9 @@ main {
 
 .calculator {
     border: 1px solid black;
-    padding: 20px;
+    padding: 50px;
     background-color: #D4D6B9;
-    border-radius: 30%;
+    border-radius: 20%;
 }
 
 #heading {
@@ -27,6 +27,25 @@ main {
     font-family: 'Orbitron', sans-serif;
 }
 
-.button-style {
-    
+.input-area {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
 }
+
+.button-style {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #383B53;
+    color: white;
+}
+
+.answer-area {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid cornflowerblue;
+}
+
