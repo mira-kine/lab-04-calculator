@@ -13,3 +13,11 @@ export function subtract_two(num){
 export function subtract(num1, num2) {
     return num1 - num2;
 }
+
+export function multiply_two(num1, num2) {
+    return num * 2;
+}
+
+export function multiply(num1, num2) {
+    return num1 * num2;
+}

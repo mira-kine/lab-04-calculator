@@ -3,6 +3,7 @@
 
 import { add_two, add } from '../calculations.js';
 import { subtract_two, subtract } from '../calculations.js';
+import { multiply_two, multiply } from '../calculations.js'
 
 const test = QUnit.test;
 
@@ -48,4 +49,10 @@ test ('subtract(10,5) function', (expect) => {
     const expected = 5;
     const actual = subtract(input1, input2);
     expect.equal(actual,expected);
+});
+
+test ('test multiply_two function', (expect) => {
+    const expected = 4;
+    const actual = multiply_two(2);
+    expect.equal(actual, expected);
 });

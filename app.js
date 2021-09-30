@@ -17,8 +17,10 @@ addButton.addEventListener('click', ()=>{
 });
 
 import { subtract } from './calculations.js'
-console.log('number added');
+console.log('number subtracted');
 const subInput1 = document.getElementById('sub-input-1');
 const subInput2 = document.getElementById('sub-input-2');
 const subButton = document.getElementById('sub-button');
 const subAnswer = document.getElementById('sub-answer');
+
+console.log(subInput1, subInput2, subButton, subAnswer);
