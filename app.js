@@ -15,3 +15,10 @@ addButton.addEventListener('click', ()=>{
   console.log(result);
   addAnswer.textContent = result;
 });
+
+import { subtract } from './calculations.js'
+console.log('number added');
+const subInput1 = document.getElementById('sub-input-1');
+const subInput2 = document.getElementById('sub-input-2');
+const subButton = document.getElementById('sub-button');
+const subAnswer = document.getElementById('sub-answer');
