@@ -24,3 +24,28 @@ const subButton = document.getElementById('sub-button');
 const subAnswer = document.getElementById('sub-answer');
 
 console.log(subInput1, subInput2, subButton, subAnswer);
+
+subButton.addEventListener('click', ()=>{
+  const value1 = Number(subInput1.value);
+  const value2 = Number(subInput2.value);
+  const result = subtract(value1, value2);
+  console.log(result);
+  subAnswer.textContent = result;
+});
+
+import { multiply } from './calculations.js'
+console.log('number multiplied');
+const multInput1 = document.getElementById('mult-input-1');
+const multInput2 = document.getElementById('mult-input-2');
+const multButton = document.getElementById('mult-button');
+const multAnswer = document.getElementById('mult-answer');
+
+console.log(multInput1, multInput2, multButton, multAnswer);
+
+multButton.addEventListener('click', ()=>{
+  const value1 = Number(multInput1.value);
+  const value2 = Number(multInput2.value);
+  const result = multiply(value1, value2);
+  console.log(result);
+  multAnswer.textContent = result;
+})
