@@ -38,6 +38,6 @@ export function mod(num1, num2) {
     return num1 % num2;
 }
 
-export function int(num) {
-    return Math.floor(num);
+export function int_two(num) {
+    return Math.round(num/2);
 }
