@@ -6,7 +6,7 @@ import { subtract_two, subtract } from '../calculations.js';
 import { multiply_two, multiply } from '../calculations.js'
 import {divide_two, divide} from '../calculations.js'
 import { mod_five, mod } from '../calculations.js';
-import { int_two } from '../calculations.js';
+import { int_three } from '../calculations.js';
 
 const test = QUnit.test;
 
@@ -96,8 +96,8 @@ test ('mod(9,3) function', (expect) => {
     expect.equal(actual, expected);
 });
 
-test ('test int_two function', (expect) => {
+test ('test int_three function', (expect) => {
     const expected = 5;
-    const actual = int_two(11);
+    const actual = int_three(17);
     expect.equal(actual, expected);
 });
