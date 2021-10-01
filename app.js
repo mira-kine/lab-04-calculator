@@ -80,4 +80,4 @@ modButton.addEventListener('click', ()=>{
   const result = mod(value1, value2);
   console.log(result);
   modAnswer.textContent = result;
-})
+});

@@ -39,5 +39,9 @@ export function mod(num1, num2) {
 }
 
 export function int_three(num) {
-    return parseInt(num/3);
+    return Math.floor(num/3);
+}
+
+export function int(num1, num2) {
+    return Math.floor(num1/num2);
 }
